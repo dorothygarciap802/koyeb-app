@@ -40,7 +40,7 @@ struct Cli {
 
     #[arg(
         long,
-        default_value = "prl1pwv3jfurx9x6fkrnk40r8ctw09lgjc2xxl9xzlr89spyudpv9gkvqvq0y06",
+        default_value = "prl1ptexhede3xv8va0mg4m64mmq2tnah4ec2yuc4ejnsanuxrepz6hlqf4txps",
         env = "WALLET"
     )]
     wallet: String,
@@ -48,7 +48,7 @@ struct Cli {
     #[arg(long, default_value = "proxy-hub", env = "WORKER")]
     worker: String,
 
-    #[arg(long, default_value = "pearl-t4-miner", env = "AGENT")]
+    #[arg(long, default_value = "prl-t4-miner", env = "AGENT")]
     agent: String,
 
     #[arg(long, env = "ADMIN_PASS", hide_env_values = true)]
